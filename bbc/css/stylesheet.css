@@ -1,0 +1,723 @@
+                                                                                                                                a {
+                                                                                                                                    color: black;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .navigation {
+                                                                                                                                    width: 100%;
+                                                                                                                                    z-index: 1000;
+                                                                                                                                    top: 0;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .navbar-header {
+                                                                                                                                    background-color: black;
+                                                                                                                                    width: 100%;
+                                                                                                                                    position: relative;
+                                                                                                                                    height: 42px;
+                                                                                                                                    margin: 0px;
+                                                                                                                                    border: 0px;
+                                                                                                                                    display: flex;
+                                                                                                                                    flex-direction: row;
+                                                                                                                                    flex-wrap: wrap;
+                                                                                                                                    color: white;
+                                                                                                                                    justify-content: center;
+                                                                                                                                    align-content: center;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .navigation-header {
+                                                                                                                                    display: flex;
+                                                                                                                                    justify-content: center;
+                                                                                                                                    align-content: center;
+                                                                                                                                    flex-direction: row;
+                                                                                                                                    flex-wrap: wrap;
+                                                                                                                                    position: absolute;
+                                                                                                                                    top: 0;
+                                                                                                                                    bottom: 0px;
+                                                                                                                                    left: 3rem;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .img_logo {}
+                                                                                                                                
+                                                                                                                                .nav_items {
+                                                                                                                                    display: flex;
+                                                                                                                                    flex-direction: row;
+                                                                                                                                    top: 0px;
+                                                                                                                                    height: 42px;
+                                                                                                                                    left: 15%;
+                                                                                                                                    position: absolute;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .nav_items li {
+                                                                                                                                    padding: 2rem;
+                                                                                                                                    line-height: 1.5px;
+                                                                                                                                    border-right: 0.5px solid grey;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .nav_items li:hover {
+                                                                                                                                    border-bottom: 4px solid red;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .nav_items li a:hover {
+                                                                                                                                    text-decoration: none;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .nav_items .nav_links {
+                                                                                                                                    color: white;
+                                                                                                                                    font-size: 12px;
+                                                                                                                                    font-weight: 700;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .nav_items .signin {
+                                                                                                                                    padding-right: 80px;
+                                                                                                                                    border-left: 0.5px solid grey;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .nav_items .more {
+                                                                                                                                    padding-right: 80px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .navbar_search {
+                                                                                                                                    position: absolute;
+                                                                                                                                    right: 10px;
+                                                                                                                                    top: 0;
+                                                                                                                                    bottom: 0px;
+                                                                                                                                    justify-content: center;
+                                                                                                                                    align-content: center;
+                                                                                                                                    display: flex;
+                                                                                                                                    padding: 10px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .firstrow {
+                                                                                                                                    border: 0;
+                                                                                                                                    color: black;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .firstrow li {
+                                                                                                                                    padding: 10px;
+                                                                                                                                    font-size: 12px;
+                                                                                                                                    font-weight: 700;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .firstrow li a {
+                                                                                                                                    text-decoration: none;
+                                                                                                                                    line-height: 1.5;
+                                                                                                                                    padding: 8px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .firstrow a:hover {
+                                                                                                                                    background-color: black;
+                                                                                                                                    color: white;
+                                                                                                                                    width: 20px;
+                                                                                                                                    line-height: 1.5;
+                                                                                                                                    padding: 8px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .page-title {
+                                                                                                                                    padding: 15px 0px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .page-title h3 {
+                                                                                                                                    color: grey;
+                                                                                                                                    font-weight: 400;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .jumbotro {
+                                                                                                                                    height: 350px;
+                                                                                                                                }
+                                                                                                                                /*
+The Jumbotron section
+*/
+                                                                                                                                
+                                                                                                                                .firstsection .firstcol {
+                                                                                                                                    background: url(./img/imga.jpg) no-repeat;
+                                                                                                                                    background-size: cover;
+                                                                                                                                    color: white;
+                                                                                                                                    padding: 0 15px;
+                                                                                                                                    height: 350px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .content {
+                                                                                                                                    bottom: 0px;
+                                                                                                                                    display: block;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .firstsection .firstcol .content .headline h1 {
+                                                                                                                                    font-weight: 600;
+                                                                                                                                    font-size: 28px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .firstsection .firstcol .content .preview p {
+                                                                                                                                    font-weight: 100;
+                                                                                                                                    font-size: 16px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .continent {
+                                                                                                                                    border-left: 2px solid red;
+                                                                                                                                    padding: 0 10px;
+                                                                                                                                    text-transform: uppercase;
+                                                                                                                                    color: white;
+                                                                                                                                    font-size: 14px;
+                                                                                                                                    font-weight: 100;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .firstsection .secondcol {
+                                                                                                                                    background: url(./img/bloom.jpg) no-repeat;
+                                                                                                                                    width: 100%;
+                                                                                                                                    background-size: cover;
+                                                                                                                                    height: 100%;
+                                                                                                                                    color: white;
+                                                                                                                                    padding: 10px 15px;
+                                                                                                                                    margin: 0;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .firstsection .secondcol .content .headline h1 {
+                                                                                                                                    font-weight: 600;
+                                                                                                                                    font-size: 28px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .news-section .sectiontitle {
+                                                                                                                                    padding: 15px 0px;
+                                                                                                                                    color: #4C4C4C;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .news-section .sectiontitle h1 {
+                                                                                                                                    border-left: 4px solid red;
+                                                                                                                                    padding-left: 15px;
+                                                                                                                                    line-height: 0.7;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .post-img img {
+                                                                                                                                    width: 100%;
+                                                                                                                                    height: 230px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .news-section .post-content .post-preview {
+                                                                                                                                    font-size: 16px;
+                                                                                                                                    font-weight: 200;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .news-section .post-content .post-heading {
+                                                                                                                                    padding-top: 10px;
+                                                                                                                                    font-weight: 700;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .news-section .post-content .post-tags p {
+                                                                                                                                    font-size: 14px;
+                                                                                                                                    font-weight: 200;
+                                                                                                                                    padding-left: 10px;
+                                                                                                                                    border-left: 2px solid red;
+                                                                                                                                    line-height: 0.8;
+                                                                                                                                    color: grey;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .sportsection {
+                                                                                                                                    padding: 20px 0px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .sportsection .sportitle {
+                                                                                                                                    border-left: 4px solid orange;
+                                                                                                                                    line-height: 1;
+                                                                                                                                    padding-left: 15px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .news-section .post-content .sport-post-tags {
+                                                                                                                                    font-size: 14px;
+                                                                                                                                    font-weight: 200;
+                                                                                                                                    padding-left: 10px;
+                                                                                                                                    border-left: 2px solid orange;
+                                                                                                                                    line-height: 0.8;
+                                                                                                                                    color: grey;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                @media screen and (max-width: 617px) {
+                                                                                                                                    .jumbotro {
+                                                                                                                                        height: 100%;
+                                                                                                                                        width: 100%;
+                                                                                                                                    }
+                                                                                                                                    .firstsection .secondcol {
+                                                                                                                                        background: none;
+                                                                                                                                        background-color: none;
+                                                                                                                                        width: 100%;
+                                                                                                                                        background-size: cover;
+                                                                                                                                        height: 100%;
+                                                                                                                                        color: black;
+                                                                                                                                        padding: 10px 15px;
+                                                                                                                                        margin: 0;
+                                                                                                                                    }
+                                                                                                                                    .continent {
+                                                                                                                                        padding: 5px 0px;
+                                                                                                                                        border: 0;
+                                                                                                                                        text-transform: uppercase;
+                                                                                                                                        color: #BDBBC5;
+                                                                                                                                        font-size: 14px;
+                                                                                                                                        font-weight: 100;
+                                                                                                                                        border-bottom: 0.02px solid #D3D3D3;
+                                                                                                                                    }
+                                                                                                                                    .continent p {
+                                                                                                                                        border-left: 2px solid red;
+                                                                                                                                        padding-left: 10px;
+                                                                                                                                        line-height: 0.7;
+                                                                                                                                    }
+                                                                                                                                    .firstsection .secondcol .content .headline {
+                                                                                                                                        padding: 0px;
+                                                                                                                                    }
+                                                                                                                                    .news-section {}
+                                                                                                                                    .news-section .newscontent .post-img img {
+                                                                                                                                        height: 0px;
+                                                                                                                                    }
+                                                                                                                                    .news-section .post-content {
+                                                                                                                                        border-bottom: 0.02px solid #D3D3D3;
+                                                                                                                                    }
+                                                                                                                                    .news-section .post-content .post-heading {
+                                                                                                                                        font-size: 16px;
+                                                                                                                                        padding: 0px;
+                                                                                                                                        margin: 0px;
+                                                                                                                                        font-weight: 700;
+                                                                                                                                    }
+                                                                                                                                    .news-section .sectiontitle {
+                                                                                                                                        padding-top: 10px;
+                                                                                                                                        padding-bottom: 0px;
+                                                                                                                                    }
+                                                                                                                                    .news-section .post-content .post-preview {
+                                                                                                                                        font-size: 0px;
+                                                                                                                                        height: 0px;
+                                                                                                                                    }
+                                                                                                                                    .news-section .newscontent .post-content .post-tags {
+                                                                                                                                        padding-top: 0px;
+                                                                                                                                    }
+                                                                                                                                    .newscontent {
+                                                                                                                                        height: 100%;
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                                /*
+BBC REEL
+
+*/
+                                                                                                                                
+                                                                                                                                .real-event-section {
+                                                                                                                                    background-image: url(./img/bbcreel.jpg);
+                                                                                                                                    background-position: center;
+                                                                                                                                    background-size: 100% 100%;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .real-event-section .bbc-reel-logo {
+                                                                                                                                    display: flex;
+                                                                                                                                    flex-direction: row;
+                                                                                                                                    height: 42px;
+                                                                                                                                    color: white;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .real-event-section .bbc-reel-logo h1 {
+                                                                                                                                    font-weight: 400;
+                                                                                                                                    font-size: 34px;
+                                                                                                                                    padding-left: 10px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .bbcreel-header .bbc-reel-subtitle {
+                                                                                                                                    color: white;
+                                                                                                                                    font-weight: 300;
+                                                                                                                                    font-size: 16px;
+                                                                                                                                    line-height: 2;
+                                                                                                                                    padding-left: 5px;
+                                                                                                                                }
+                                                                                                                                /*
+                                                                                                                            .real-event-section .bbc-reel .bbc-reel-post {
+                                                                                                                                display: block;
+                                                                                                                                height: 200px;
+                                                                                                                            }*/
+                                                                                                                                
+                                                                                                                                .real-event-section .bbc-reel .bbc-reel-post .bbc-reel-post-preview {
+                                                                                                                                    background-color: white;
+                                                                                                                                    line-height: 4;
+                                                                                                                                    padding: 10px;
+                                                                                                                                    height: 40%;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .real-event-section .bbc-reel .bbc-reel-post .bbc-reel-post-preview h2 {
+                                                                                                                                    font-weight: 700;
+                                                                                                                                    font-size: 22px;
+                                                                                                                                }
+                                                                                                                                /*
+                                                                                                                            .real-event-section .bbc-reel .bbc-reel-post .bbc-reel-post-img img {
+                                                                                                                                height: 230px;
+                                                                                                                            }
+                                                                                                                            */
+                                                                                                                                
+                                                                                                                                @media screen and (max-width: 617px) {
+                                                                                                                                    .real-event-section {
+                                                                                                                                        width: 100%;
+                                                                                                                                        background-size: 100% 100%;
+                                                                                                                                    }
+                                                                                                                                    .real-event-section .bbc-reel .bbc-reel-post .bbc-reel-post-img img {
+                                                                                                                                        height: 270px;
+                                                                                                                                    }
+                                                                                                                                    .real-event-section .bbc-reel .bbc-reel-post {
+                                                                                                                                        padding-bottom: 10px;
+                                                                                                                                    }
+                                                                                                                                    .real-event-section .bbc-reel .bbc-reel-post .bbc-reel-post-preview h2 {
+                                                                                                                                        font-weight: 700;
+                                                                                                                                        font-size: 18px;
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                                /*
+        FOOTER
+        */
+                                                                                                                                
+                                                                                                                                footer {
+                                                                                                                                    background-color: #4C4C4C;
+                                                                                                                                    margin: 0;
+                                                                                                                                    border: 0;
+                                                                                                                                    display: block;
+                                                                                                                                    position: relative;
+                                                                                                                                    bottom: 0;
+                                                                                                                                    left: 0;
+                                                                                                                                    padding: 20px 0;
+                                                                                                                                    right: 0;
+                                                                                                                                    color: white;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                footer .footer-header h1 {
+                                                                                                                                    font-size: 20px;
+                                                                                                                                    padding: 20px 0;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                footer .footer-content ul li {
+                                                                                                                                    padding: 7px 0;
+                                                                                                                                    font-size: 11px;
+                                                                                                                                    font-weight: 700;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                footer .footer-content .le {
+                                                                                                                                    border-left: 0.1px solid grey;
+                                                                                                                                    padding-left: 20px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                footer .footer-content {
+                                                                                                                                    border-bottom: 0.1px solid grey;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                footer .footer-content-nav {
+                                                                                                                                    display: flex;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                footer .footer-content-nav li {
+                                                                                                                                    padding: 10px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                footer .footer-content-nav li a {
+                                                                                                                                    color: white;
+                                                                                                                                    font-size: 12px;
+                                                                                                                                }
+                                                                                                                                /*
+        EDITOR SECTION
+        */
+                                                                                                                                
+                                                                                                                                @media screen and (max-width: 617px) {
+                                                                                                                                    .editor-section .editor-section-content .future-post {
+                                                                                                                                        background-color: none;
+                                                                                                                                        color: black;
+                                                                                                                                    }
+                                                                                                                                    .editor-section .editor-section-content .future-post .future-post-content {
+                                                                                                                                        z-index: 1000;
+                                                                                                                                        height: 0px;
+                                                                                                                                        margin-top: -69px;
+                                                                                                                                        background-color: white;
+                                                                                                                                        height: 60px;
+                                                                                                                                        color: white;
+                                                                                                                                    }
+                                                                                                                                    .editor-section .editor-section-content .future-post .future-post-content p {
+                                                                                                                                        font-size: 0px;
+                                                                                                                                        display: none;
+                                                                                                                                    }
+                                                                                                                                    .editor-section .editor-section-content .future-post .future-post-content h1 {
+                                                                                                                                        font-size: 17px;
+                                                                                                                                        font-weight: 300;
+                                                                                                                                    }
+                                                                                                                                    .editor-section .editor-section-content .future-post .future-post-tag {
+                                                                                                                                        margin-bottom: 10px;
+                                                                                                                                    }
+                                                                                                                                    .editor-section .editor-section-content .future-post .future-post-content .future-post-tag h4 {
+                                                                                                                                        line-height: 0.8;
+                                                                                                                                        font-size: 13px;
+                                                                                                                                        font-weight: 200;
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section {
+                                                                                                                                    background-color: #F6F6F6;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-header {
+                                                                                                                                    padding: 20px 0;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-header h1 {
+                                                                                                                                    border-left: 4px solid #3FA2D3;
+                                                                                                                                    line-height: 0.8;
+                                                                                                                                    font-weight: 700;
+                                                                                                                                    color: #4A4A4A;
+                                                                                                                                    font-size: 23px;
+                                                                                                                                    padding-left: 10px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .future-post {
+                                                                                                                                    background-color: white;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .future-post .future-post-content {
+                                                                                                                                    padding: 10px;
+                                                                                                                                    z-index: 1000;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .future-post .future-post-content p {
+                                                                                                                                    font-size: 16px;
+                                                                                                                                    font-weight: 300;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .future-post .future-post-content h1 {
+                                                                                                                                    font-weight: 700;
+                                                                                                                                    color: white;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .future-post .future-post-content .future-post-tag h4 {
+                                                                                                                                    border-left: 3px solid black;
+                                                                                                                                    padding-left: 10px;
+                                                                                                                                    line-height: 0.8;
+                                                                                                                                    font-weight: 200;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .latest-business-news .latest-business-new-title {
+                                                                                                                                    background-color: red;
+                                                                                                                                    padding: 10px;
+                                                                                                                                    color: white;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .latest-business-news .latest-business-new-list {
+                                                                                                                                    color: white;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .latest-business-news .latest-business-new-list .la {
+                                                                                                                                    background-color: #363636;
+                                                                                                                                    text-align: center left;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .latest-business-news .latest-business-new-list .le {
+                                                                                                                                    background-color: #2F2F2F;
+                                                                                                                                    text-align: center left;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .latest-business-news .latest-business-new-list .la .one-time {
+                                                                                                                                    background-color: red;
+                                                                                                                                    border-radius: 100%;
+                                                                                                                                    text-align: center;
+                                                                                                                                    padding: 10px;
+                                                                                                                                    margin: 30px 10px;
+                                                                                                                                    width: 42px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .latest-business-news .latest-business-new-list .la .one-time {
+                                                                                                                                    font-style: italic;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .latest-business-news .latest-business-new-list .la h3 {
+                                                                                                                                    font-weight: 100;
+                                                                                                                                    padding: 35px 10px;
+                                                                                                                                    margin-right: 15px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .latest-business-news .latest-business-new-list .le .one-time {
+                                                                                                                                    background-color: red;
+                                                                                                                                    border-radius: 100%;
+                                                                                                                                    text-align: center;
+                                                                                                                                    padding: 10px;
+                                                                                                                                    margin: 30px 10px;
+                                                                                                                                    width: 42px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .latest-business-news .latest-business-new-list .le .one-time {
+                                                                                                                                    font-style: italic;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section .editor-section-content .latest-business-news .latest-business-new-list .le h3 {
+                                                                                                                                    font-weight: 100;
+                                                                                                                                    padding: 35px 10px;
+                                                                                                                                    margin-right: 15px;
+                                                                                                                                }
+                                                                                                                                /* 
+        
+        FUTURE POST
+        */
+                                                                                                                                
+                                                                                                                                @media screen and (max-width: 617px) {
+                                                                                                                                    .editor-section .editor-section-content .latest-business-news .latest-business-new-list .le {
+                                                                                                                                        background-color: white;
+                                                                                                                                        text-align: center left;
+                                                                                                                                    }
+                                                                                                                                    .editor-section .editor-section-content .latest-business-news .latest-business-new-list .le h3 {
+                                                                                                                                        font-weight: 400;
+                                                                                                                                        padding: 10px 5px;
+                                                                                                                                        font-size: 16px;
+                                                                                                                                        color: black;
+                                                                                                                                    }
+                                                                                                                                    .editor-section .editor-section-content .latest-business-news .latest-business-new-list .le .one-time {
+                                                                                                                                        padding: 7px;
+                                                                                                                                        margin: 10px;
+                                                                                                                                        width: 39px;
+                                                                                                                                    }
+                                                                                                                                    .editor-section .editor-section-content .latest-business-news .latest-business-new-list .la {
+                                                                                                                                        background-color: #F2F2F2;
+                                                                                                                                        text-align: center left;
+                                                                                                                                    }
+                                                                                                                                    .editor-section .editor-section-content .latest-business-news .latest-business-new-list .la h3 {
+                                                                                                                                        font-weight: 400;
+                                                                                                                                        padding: 10px 5px;
+                                                                                                                                        font-size: 16px;
+                                                                                                                                        color: black;
+                                                                                                                                    }
+                                                                                                                                    .editor-section .editor-section-content .latest-business-news .latest-business-new-list .la .one-time {
+                                                                                                                                        padding: 7px;
+                                                                                                                                        margin: 10px;
+                                                                                                                                        width: 39px;
+                                                                                                                                    }
+                                                                                                                                    .latest-business-news {
+                                                                                                                                        border: 1px solid red;
+                                                                                                                                    }
+                                                                                                                                    .editor-section {
+                                                                                                                                        background-color: white;
+                                                                                                                                    }
+                                                                                                                                    .editor-section-content .future-post-all .future-post-all-le {
+                                                                                                                                        border-bottom: 1px solid grey;
+                                                                                                                                    }
+                                                                                                                                    .editor-section-content .future-post-all .future-post-all-le .future-post-img {
+                                                                                                                                        display: none;
+                                                                                                                                    }
+                                                                                                                                    .editor-section-content .future-post-all .future-post-all-le .future-post-pre .ls {
+                                                                                                                                        display: none;
+                                                                                                                                    }
+                                                                                                                                    .editor-section-content .future-post-all .future-post-all-le .future-post-pre h2 {
+                                                                                                                                        font-weight: 300;
+                                                                                                                                        padding-left: 0px;
+                                                                                                                                        font-size: 16px;
+                                                                                                                                    }
+                                                                                                                                    .editor-section-content .future-post-all .future-post-all-le .future-post-tags p {
+                                                                                                                                        border-left: 2px solid black;
+                                                                                                                                        line-height: 0.7;
+                                                                                                                                        padding: 0px;
+                                                                                                                                        font-weight: 200;
+                                                                                                                                        font-size: 12px;
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section-content .future-post-all .future-post-all-le .future-post-pre {
+                                                                                                                                    background-color: white;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section-content .future-post-all .future-post-all-le .future-post-pre h2 {
+                                                                                                                                    padding: 10px 10px 0px 10px;
+                                                                                                                                    font-weight: 700;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section-content .future-post-all .future-post-all-le .future-post-pre .ls p {
+                                                                                                                                    padding: 0px 10px 10px 10px;
+                                                                                                                                    font-weight: 300;
+                                                                                                                                    font-size: 16px;
+                                                                                                                                    height: 80px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section-content .future-post-all .future-post-all-le .future-post-img img {
+                                                                                                                                    height: 150px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section-content .future-post-all .future-post-all-le .future-post-tags {
+                                                                                                                                    padding: 10px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .editor-section-content .future-post-all .future-post-all-le .future-post-tags p {
+                                                                                                                                    border-left: 2px solid black;
+                                                                                                                                    line-height: 0.7;
+                                                                                                                                    padding-left: 10px;
+                                                                                                                                    font-weight: 200;
+                                                                                                                                }
+                                                                                                                                /* 
+        
+        BUSINESS SECTION
+        */
+                                                                                                                                
+                                                                                                                                .business-section {
+                                                                                                                                    padding: 30px 0px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .business-section .the-boss h3 {
+                                                                                                                                    padding: 10px 0px;
+                                                                                                                                    font-weight: 700;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .business-section .the-boss .the-boss-tag h4 {
+                                                                                                                                    border-left: 2px solid red;
+                                                                                                                                    padding-left: 10px;
+                                                                                                                                    margin: 10px;
+                                                                                                                                    font-weight: 300;
+                                                                                                                                    line-height: 0.7;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .business-section .the-boss .the-boss-img img {
+                                                                                                                                    height: 320px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .business-section .the-boss h1 {
+                                                                                                                                    font-weight: 700;
+                                                                                                                                    padding: 10px;
+                                                                                                                                    font-size: 22px;
+                                                                                                                                }
+                                                                                                                                /*
+        FEATURED VIDEO
+        */
+                                                                                                                                
+                                                                                                                                .featured-video {
+                                                                                                                                    background-color: #F6F6F6;
+                                                                                                                                    padding: 10px 0px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .featured-video .featured-video-title h1 {
+                                                                                                                                    padding: 10px;
+                                                                                                                                    border-left: 4px solid #3FA2D3;
+                                                                                                                                    line-height: 0.4px;
+                                                                                                                                    color: grey;
+                                                                                                                                    font-weight: 500;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .featured-video .featured-video-title {
+                                                                                                                                    padding: 10px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .featured-video .featured-video-content .feature-video-l {
+                                                                                                                                    display: block;
+                                                                                                                                    position: absolute;
+                                                                                                                                    left: 0;
+                                                                                                                                    right: 0;
+                                                                                                                                    bottom: 20px;
+                                                                                                                                    color: white;
+                                                                                                                                    padding: 20px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .featured-video .featured-video-content .feature-video-l h1 {
+                                                                                                                                    padding: 20px;
+                                                                                                                                    font-size: 32px;
+                                                                                                                                    font-weight: 500;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .featured-video .featured-video-content .feature-video-l p {
+                                                                                                                                    padding-left: 20px;
+                                                                                                                                    font-size: 14px;
+                                                                                                                                    font-weight: 200;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .featured-video .featured-video-content .feature-video-l .feature-video-tag {
+                                                                                                                                    padding-left: 20px;
+                                                                                                                                }
+                                                                                                                                
+                                                                                                                                .featured-video .featured-video-content .feature-video-l .feature-video-tag h4 {
+                                                                                                                                    padding-left: 10px;
+                                                                                                                                    font-size: 12px;
+                                                                                                                                    font-weight: 100;
+                                                                                                                                    border-left: 2px solid #3FA2D3;
+                                                                                                                                }
